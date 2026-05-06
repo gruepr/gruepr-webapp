@@ -1,6 +1,119 @@
 // Change Log
 const changeLog = [
   {
+    header: "13.0 - MAJOR UPDATE",
+    text: [
+      `Pulling in incredible dissertation work by Nikhen Nyo to improve the user interface:`,
+      `added visualization to show how well each team meets each team formation goal`,
+      `turned teaming criteria into individual 'cards' that are added and rearranged to set priority order`,
+      `UI modernizations and simplifications in start dialog and data loading process`,
+      `diversity criteria for multiple choice questions now optimizes for most number of values (in addition to widest range of values for ordered questions)`,
+      `added several types of questions: numerical response, ranked options (such as selecting your preference(s) for a project topic), and free text response`,
+      `significantly expanded the ability to make teaming rules based on gender or racial/ethnic identity`,
+      `unified "required" and "requested" teammates`,
+      `changed handling of gender, allowing it to be multi-valued`,
+      `fixed errors with Google connection and authorization related to IPv6 networking and PKCE authorization`,
+      `improved optimization routine`,
+      `much faster load times for windows and dialogs`,
+      `updated Qt to v6.9.1, c++ to c++20 using more RAII architecture`,
+      `large number of additional bugfixes and improvements`,
+      `added experimental linux build`,
+    ],
+  },
+
+  {
+    header: "12.7",
+    text: [
+      `significant speedup in optimization algorithm (now supports sections of up to 1000 students!)`,
+      `significant speedup in loading data`,
+      `UI improvements:`,
+      `the order of the teams now persists when closing/reopening the app`,
+      `export (save/print) format more flexible`,
+      `better display of teams when teaming all sections separately`,
+      `Canvas integration improvements:`,
+      `auto-downloads section data with the survey`,
+      `simplified login window`,
+      `courses sorted by creation date, rather than alphabetically`,
+      `Bug fixes:`,
+      `fixed crash when roster file has invalid entries`,
+      `fixed crash when question text has a quotation mark in it`,
+      `many behind-the-scenes code updates`,
+    ],
+  },
+
+  {
+    header: "12.6",
+    text: [
+      `updated Qt libraries to 6.7.0`,
+      `improved software registration process`,
+      `various small bugfixes and stability improvements`,
+    ],
+  },
+
+  {
+    header: "12.5",
+    text: [
+      `improved handling of data that has only a single section included`,
+      `improved handling of students with a blank section (incl. students on roster without survey)`,
+      `removed unnecessary string conversions that corrupted accented and other non-ASCII characters`,
+      `more robust connection to Google, with auto-retry of missed download attempts`,
+      `no longer saves tokens and usernames in plaintext`,
+    ],
+  },
+
+  {
+    header: "12.4",
+    text: [
+      `refined the Google authorization and connection internals, leading to better performance`,
+    ],
+  },
+
+  {
+    header: "12.3",
+    text: [
+      `fixed crash when trying to form teams after loading a file without ever selecting a section`,
+      `fixed some (but not all) the Google authorization and connection issues; updated connection UI`,
+      `now maintains visibility / palette even with macOS in dark mode`,
+      `now allows selection of which google drive account to use, new forms will associate with the account used`,
+      `uses more secure PKCE setting when connecting to Google API`,
+      `much more nicely handles error upon loading survey files with < 4 responses`,
+      `(Internal) createed an LMS class with derived classes for Canvas & Google (& future LMSes); reorganized files into an LMS subfolder`,
+    ],
+  },
+
+  {
+    header: "12.2",
+    text: [
+      `many small improvements and bugfixes in the user interface`,
+      `fixed several bugs when comparing a roster to the student list`,
+      `now automatically retrieves names and email addresses when downloading survey submissions from Canvas`,
+      `many internal code unifications and simplifications`,
+    ],
+  },
+
+  {
+    header: "12.1",
+    text: [
+      `gruepr now auto-saves all of your work when creating teams; when forming teams, offers to re-load previously saved work`,
+      `upon opening a survey that has preferred teammates and / or non-teammates, gruepr now asks whether to auto-load these preferences as required and / or prevented`,
+      `more granular scheduling options, down to the 15 minute level`,
+      `better UI on when close button is hit in surveymaker, confirming close if survey has not yet been exported`,
+      `a number of smaller bugfixes and improvements`,
+    ],
+  },
+
+  {
+    header: "12.0 - MAJOR UPDATE",
+    text: [
+      `completely redone user interface, designed in partnership with a team from Scout [ https://scout.camd.northeastern.edu/ ]`,
+      `moved codebase to Qt version 6.5`,
+      `moved Windows compiler to msvc`,
+      `improved and increased integrations with Canvas`,
+      `a very large number of bugfixes and internal improvements`,
+    ],
+  },
+
+  {
     header: "11.1",
     text: [
       `bugfix: corrected regex recognition of the word "and" in the preferred-teammates and preferred-non-teammates fields of a student record by requiring a space on either side of the word (so doesn't match, e.g., "Sanders")`,

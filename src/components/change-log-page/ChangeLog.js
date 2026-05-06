@@ -13,7 +13,7 @@ const ChangeLog = () => {
         mobile:p-[16px] mobile:py-[32px] mobile:space-y-[32px]"
       >
         <h2 className="col-span-3 heading2">Change Log</h2>
-        <p className="body">Updated 2022-06-07</p>
+        <p className="body">Updated 2026-04-17</p>
         {changeLog.map((curr) => (
           <div className="col-span-3">
             <h3 className="col-span-3 heading3">{curr.header}</h3>

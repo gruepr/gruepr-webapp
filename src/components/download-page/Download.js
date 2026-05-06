@@ -28,7 +28,7 @@ const Download = () => {
             <div className="flex flex-row items-center space-x-[12px]">
               <h3 className="heading3">{content.downloadPage.windows}</h3>
               <button className="primary-button">
-                <a href="https://github.com/gruepr/gruepr/releases/latest/download/install_grueprV11.1.exe">
+                <a href="https://github.com/gruepr/gruepr/releases/latest/download/install_gruepr.exe">
                   {content.downloadPage.downloadGruepr}
                 </a>
               </button>
@@ -48,19 +48,18 @@ const Download = () => {
             <p className="body">{content.downloadPage.macInstall}</p>
           </div>
 
-          <div className="flex mobile:flex-col laptop:flex-row mobile:space-y-[12px] laptop:space-x-[12px] mobile:items-start laptop:items-center">
-            <p className="body">{content.downloadPage.trySample}</p>
-            <button className="secondary-button outline outline-neutral-500">
-              <a
-                href="https://raw.githubusercontent.com/gruepr/gruepr/master/test_surveys/testdata.csv"
-                target="_blank"
-                rel="noreferrer"
-                download
-              >
-                {content.downloadPage.downloadData}
-              </a>
-            </button>
+          <div className="space-y-[24px]">
+            <div className="flex flex-row items-center space-x-[12px]">
+              <h3 className="heading3">{content.downloadPage.linux}</h3>
+              <button className="primary-button">
+                <a href="https://github.com/gruepr/gruepr/releases/latest/download/gruepr.AppImage">
+                  {content.downloadPage.downloadGruepr}
+                </a>
+              </button>
+            </div>
+            <p className="body">{content.downloadPage.linuxInstall}</p>
           </div>
+
         </div>
       </div>
       <img

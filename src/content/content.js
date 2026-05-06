@@ -35,7 +35,7 @@ const content = {
 
       privacyHeader: "gruepr keeps your data private",
       privacyText: `We never collect your data. The survey is typically a Google Form that lives on your 
-      own Google Drive, but could also be performed using any survey instrument you prefer. `,
+      own Google Drive, but could also be performed using any survey instrument you prefer, ensuring GDPR and FERPA compliance. `,
 
       forEducatorsHeader:
         "gruepr was created by an educator for fellow educators",
@@ -49,7 +49,7 @@ const content = {
      Select the types of questions and responses you want to include in your survey and let gruepr do the rest!`,
 
       teamCompatibilityHeader: "Maximize team compatibility",
-      teamCompatibilityText: `Upload your .csv, select your parameters, and have the gruepings appear right before your eyes!
+      teamCompatibilityText: `Download your survey results, select your parameters, and have the gruepings appear right before your eyes!
       We help to maximize team productivity by pairing students with similar goals and skill sets.`,
 
       freeOpenSourceHeader: "Free and open source, always",
@@ -58,7 +58,7 @@ const content = {
     },
 
     // Trusted section
-    trustedHeader: "Trusted by 35+ schools",
+    trustedHeader: "Trusted by educators at 100+ schools",
   },
 
   // ----- FAQ page ----- //
@@ -88,11 +88,7 @@ const content = {
       without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. \n
       No personal data about or from gruepr's users will ever be intentionally shared. 
       For more information, we have a complete privacy policy. \n
-      gruepr incorporates code from the open source Qt libraries, using version 5.15. These can be freely downloaded from Qt. \n
-      Icons used in gruepr were originally created by Icons8. 
-      These icons have been made available under the creative commons license: Attribution-NoDerivs 3.0 Unported (CC BY-ND 3.0). \n
-      An embedded font is used in gruepr, mostly for pdf and printer output: 
-      Oxygen Mono, Copyright (C) 2012, Vernon Adams (vern@newtypography.co.uk) released under SIL OPEN FONT LICENSE V1.1. `,
+      gruepr incorporates code from the open source Qt libraries. These can be freely downloaded from Qt.`,
     },
   },
 
@@ -123,24 +119,24 @@ const content = {
     header: "Download and Installation",
 
     // Beginning section
-    version: "The most recent version is 11.1, dated 18 November 2022. ",
+    version: "The most recent version is 13.0, dated 17 April 2026. ",
     changelog: "Changelog.",
 
     downloadGruepr: "Download gruepr",
 
     windows: "Windows:",
     windowsInstall: `To install, download the file linked above and double-click to begin the installation. You may need to 
-    enable Administrator privileges and click past security warnings during both the installation and when gruepr 
+    enable Administrator privileges and click past security warnings during the installation and when gruepr 
     is run for the first time. `,
 
-    mac: "MacOS:",
+    mac: "macOS:",
     macInstall: `To install, download the dmg file, open the downloaded file, then drag the program to the Applications 
     folder to complete installation. You may need to temporarily override your Mac security settings during the first time 
     you run the program. To do this, Control-click the app, choose Open from the menu, and in the dialog that appears, 
     click Open.`,
 
-    trySample: `If you would like a sample set of data to evaluate gruepr, you can download that here:`,
-    downloadData: `Download data`,
+    linux: "linux:",
+    linuxInstall: `To install, download the appImage linked above.`,
   },
 
   // ----- Privacy Policy page ----- //
@@ -150,29 +146,22 @@ const content = {
     // Beginning section
     beginningP1: `This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without 
     even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. No personal data about or 
-    from gruepr's users will ever be intentionally shared. For more information, we have a complete privacy policy.
-    \n
-    gruepr incorporates code from the open source Qt libraries, using version 5.15. These can be freely downloaded from Qt. `,
-    beginningP2: `Icons used in gruepr were originally created by Icons8. These icons have been made available under the creative 
-    commons license: Attribution-NoDerivs 3.0 Unported (CC BY-ND 3.0). An embedded font is used in gruepr, mostly for pdf 
-    and printer output: Oxygen Mono, Copyright (C) 2012, Vernon Adams (vern@newtypography.co.uk) released under SIL OPEN 
-    FONT LICENSE V1.1.`,
-    beginningP3: `I, Joshua Hertz, built gruepr as an Open Source app. This SERVICE is provided at no cost and is intended for use as 
+    from gruepr's users will ever be intentionally shared.`,
+    beginningP2: `I, Joshua Hertz, built gruepr as an Open Source app. This SERVICE is provided at no cost and is intended for use as 
     is. This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal 
     Information if anyone decided to use my Service. If you choose to use my Service, then you agree to the collection 
     and use of information in relation to this policy. The Personal Information that I collect is used only for providing 
-    and improving the Service. I will not use your information except as described in this Privacy Policy. I will NOT 
-    share your information with anyone. `,
-    beginningP4: `Information Collection and Use: For a better experience, while using our Service, I may ask you to voluntarily 
+    and improving the Service. I will NOT share your information with anyone. `,
+    beginningP3: `Information Collection and Use: For a better experience, while using our Service, I may ask you to voluntarily 
     provide me with certain personally identifiable information, including but not limited to Name, Email Address, 
     and Institution. Information you share with me will NOT be shared, given, or sold to anyone else. `,
-    beginningP5: `Cookies: Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. 
+    beginningP4: `Cookies: Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. 
     These are sent to your browser from the websites that you visit and are stored on your device's internal memory. 
     This Service does not use “cookies” directly. However, you may choose to use this Service in conjunction with Google, 
     Canvas, or other external services, and they might use “cookies” to collect information and improve their services. 
     You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. 
     If you choose to refuse these cookies, you may not be able to use those external portions of this Service. `,
-    beginningP6: `Service Providers: You may choose to use Google, Canvas, or other service providers in conjunction with this Service. 
+    beginningP5: `Service Providers: You may choose to use Google, Canvas, or other service providers in conjunction with this Service. 
     These service providers are used due to the following reasons: To facilitate our Service; To provide the Service on 
     our behalf; or To perform Service-related services. I want to inform users of this Service that these third parties 
     have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, 
