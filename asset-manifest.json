@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.433d7f1d.css",
-    "main.js": "/static/js/main.76dbbd80.js",
+    "main.css": "/static/css/main.0029e799.css",
+    "main.js": "/static/js/main.983638ef.js",
     "static/js/787.249e068f.chunk.js": "/static/js/787.249e068f.chunk.js",
-    "static/media/Logos.svg": "/static/media/Logos.013bbef8d03a25ff1bc11b5422f33dae.svg",
-    "static/media/team-compatibility.svg": "/static/media/team-compatibility.9c48523ee105fd967009546c91e1b1cd.svg",
-    "static/media/create-survey.svg": "/static/media/create-survey.583afc1ddc395b9172a506543b7503a7.svg",
+    "static/media/Logos.svg": "/static/media/Logos.539a29b5924f2a832da7e4885b7633dd.svg",
+    "static/media/team-compatibility.svg": "/static/media/team-compatibility.0fb82ae3efba74ec1411986396328f14.svg",
+    "static/media/create-survey.svg": "/static/media/create-survey.da76bef47ad036a4b327228e649153db.svg",
     "static/media/josh.jpg": "/static/media/josh.a573c0db5ed11f30d9e1.jpg",
-    "static/media/free-open-source.svg": "/static/media/free-open-source.f7621d9afe26af137fb47840daab8e10.svg",
+    "static/media/free-open-source.svg": "/static/media/free-open-source.aa662e3588955d1c8a4f6f971dd57401.svg",
     "static/media/hero-bg.svg": "/static/media/hero-bg.f809c7c14a421261bb7f.svg",
-    "static/media/faq-bg.svg": "/static/media/faq-bg.fcd3182017541ba2224c71bb3d8f43a7.svg",
+    "static/media/faq-bg.svg": "/static/media/faq-bg.469a762aabc0ee3d95d307c48b694485.svg",
     "static/media/privacypolicy-bg.svg": "/static/media/privacypolicy-bg.7c2b9b7f796416118917a38db4f33d40.svg",
     "static/media/download-bg.svg": "/static/media/download-bg.32eab70707fafa2374161280961fded5.svg",
     "static/media/features-bg.svg": "/static/media/features-bg.666b91db907a4d526469.svg",
@@ -20,12 +20,12 @@
     "static/media/glasses.svg": "/static/media/glasses.0d91005c86ca74e04e65ab91fc6d7a06.svg",
     "static/media/clipboard.svg": "/static/media/clipboard.f46a213ebc3474d8af343c5d03649192.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.fde432db46d96494655598eb6c718965.svg",
-    "main.433d7f1d.css.map": "/static/css/main.433d7f1d.css.map",
-    "main.76dbbd80.js.map": "/static/js/main.76dbbd80.js.map",
+    "main.0029e799.css.map": "/static/css/main.0029e799.css.map",
+    "main.983638ef.js.map": "/static/js/main.983638ef.js.map",
     "787.249e068f.chunk.js.map": "/static/js/787.249e068f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.433d7f1d.css",
-    "static/js/main.76dbbd80.js"
+    "static/css/main.0029e799.css",
+    "static/js/main.983638ef.js"
   ]
 }
