@@ -24,50 +24,61 @@ const Download = () => {
             </NavLink>
      
           </div>
-          <div className="space-y-[24px]">
-            <div className="flex flex-row items-center space-x-[12px]">
-              <h3 className="heading3">{content.downloadPage.windows}</h3>
-              <ms-store-badge
-                    productid="xpdc98f0ts7gcs"
-                    productname="gruepr"
-                    window-mode="direct"
-                    theme="auto"
-                    size="large"
-                    language="en-us"
-                    animation="on"
-              ></ms-store-badge>
-              <button className="primary-button">
-                <a href="https://github.com/gruepr/gruepr/releases/latest/download/install_gruepr.exe">
-                  {content.downloadPage.windowsDirectLabel}
-                </a>
-              </button>
+          <div className="space-y-[8px]">
+            <h3 className="heading3">{content.downloadPage.windows}</h3>
+            <div className="pl-[24px] space-y-[8px]">
+              <div className="flex flex-row items-center space-x-[12px]">  
+                <ms-store-badge
+                      productid="xpdc98f0ts7gcs"
+                      productname="gruepr"
+                      window-mode="direct"
+                      theme="dark"
+                      size="medium"
+                      language="en-us"
+                      animation="on"
+                      style={{ transform: 'scale(0.66)', transformOrigin: 'left center' }}
+                ></ms-store-badge>
+              </div>
+              <p className="body">{content.downloadPage.windowsStoreRecommendation}</p>
+
+              <p className="body font-semibold pt-[16px]">{content.downloadPage.windowsDirectHeader}</p>
+              <div className="flex flex-row items-center space-x-[12px]">
+                <button className="primary-button">
+                  <a href="https://github.com/gruepr/gruepr/releases/latest/download/install_gruepr.exe">
+                    {content.downloadPage.downloadGruepr}
+                  </a>
+                </button>
+                </div>
+              <p className="body">{content.downloadPage.windowsDirectInstall}</p>
             </div>
-            <p className="body">{content.downloadPage.windowsRecommendation}</p>
-            <p className="body">{content.downloadPage.windowsInstall}</p>
           </div>
 
           <div className="space-y-[24px]">
-            <div className="flex flex-row items-center space-x-[12px]">
-              <h3 className="heading3">{content.downloadPage.mac}</h3>
-              <button className="primary-button">
-                <a href="https://github.com/gruepr/gruepr/releases/latest/download/gruepr.dmg">
-                  {content.downloadPage.downloadGruepr}
-                </a>
-              </button>
+            <h3 className="heading3">{content.downloadPage.mac}</h3>
+            <div className="pl-[24px] space-y-[16px]">
+              <div className="flex flex-row items-center space-x-[12px]">
+                <button className="primary-button">
+                  <a href="https://github.com/gruepr/gruepr/releases/latest/download/gruepr.dmg">
+                    {content.downloadPage.downloadGruepr}
+                  </a>
+                </button>
+              </div>
+              <p className="body">{content.downloadPage.macInstall}</p>
             </div>
-            <p className="body">{content.downloadPage.macInstall}</p>
           </div>
 
           <div className="space-y-[24px]">
-            <div className="flex flex-row items-center space-x-[12px]">
-              <h3 className="heading3">{content.downloadPage.linux}</h3>
-              <button className="primary-button">
-                <a href="https://github.com/gruepr/gruepr/releases/latest/download/gruepr.AppImage">
-                  {content.downloadPage.downloadGruepr}
-                </a>
-              </button>
-            </div>
+            <h3 className="heading3">{content.downloadPage.linux}</h3>
+            <div className="pl-[24px] space-y-[16px]">
+              <div className="flex flex-row items-center space-x-[12px]">
+                <button className="primary-button">
+                  <a href="https://github.com/gruepr/gruepr/releases/latest/download/gruepr.AppImage">
+                    {content.downloadPage.downloadGruepr}
+                  </a>
+                </button>
+              </div>
             <p className="body">{content.downloadPage.linuxInstall}</p>
+            </div>
           </div>
 
         </div>

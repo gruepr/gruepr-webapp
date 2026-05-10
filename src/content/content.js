@@ -125,12 +125,12 @@ const content = {
     downloadGruepr: "Download gruepr",
 
     windows: "Windows:",
-    windowsStoreLabel: "Get it from the Microsoft Store",
-    windowsDirectLabel: "Direct Download",
-    windowsRecommendation: `We recommend installing via the Microsoft Store, which provides automatic updates and avoids 
-    security warnings. If you can't access the Store (for example, on a managed machine), use the direct download instead.`,
-    windowsInstall: `If installing manually: download the installer file, double-click to begin, and click past any security 
-    warnings during installation and on first run. You may need Administrator privileges.`,
+    windowsStoreRecommendation: `We recommend installing via the Microsoft Store, which provides automatic updates and avoids 
+    security warnings.`,
+    windowsDirectHeader: "Or, install manually:",
+    windowsDirectInstall: `Use the direct installer if you can't access the Microsoft Store or prefer manual control over updates. 
+    Download the installer file, double-click to begin, and click past any security warnings during installation and on first 
+    run. You may need Administrator privileges.`,
 
     mac: "macOS:",
     macInstall: `To install, download the dmg file, open the downloaded file, then drag the program to the Applications 
@@ -138,7 +138,7 @@ const content = {
     you run the program. To do this, Control-click the app, choose Open from the menu, and in the dialog that appears, 
     click Open.`,
 
-    linux: "linux:",
+    linux: "Linux:",
     linuxInstall: `To install, download the appImage linked above.`,
   },
 
