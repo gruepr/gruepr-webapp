@@ -125,9 +125,12 @@ const content = {
     downloadGruepr: "Download gruepr",
 
     windows: "Windows:",
-    windowsInstall: `To install, download the file linked above and double-click to begin the installation. You may need to 
-    enable Administrator privileges and click past security warnings during the installation and when gruepr 
-    is run for the first time. `,
+    windowsStoreLabel: "Get it from the Microsoft Store",
+    windowsDirectLabel: "Direct Download",
+    windowsRecommendation: `We recommend installing via the Microsoft Store, which provides automatic updates and avoids 
+    security warnings. If you can't access the Store (for example, on a managed machine), use the direct download instead.`,
+    windowsInstall: `If installing manually: download the installer file, double-click to begin, and click past any security 
+    warnings during installation and on first run. You may need Administrator privileges.`,
 
     mac: "macOS:",
     macInstall: `To install, download the dmg file, open the downloaded file, then drag the program to the Applications 

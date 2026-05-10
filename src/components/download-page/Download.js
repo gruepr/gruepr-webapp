@@ -27,12 +27,22 @@ const Download = () => {
           <div className="space-y-[24px]">
             <div className="flex flex-row items-center space-x-[12px]">
               <h3 className="heading3">{content.downloadPage.windows}</h3>
+              <ms-store-badge
+                    productid="xpdc98f0ts7gcs"
+                    productname="gruepr"
+                    window-mode="direct"
+                    theme="auto"
+                    size="large"
+                    language="en-us"
+                    animation="on"
+              ></ms-store-badge>
               <button className="primary-button">
                 <a href="https://github.com/gruepr/gruepr/releases/latest/download/install_gruepr.exe">
-                  {content.downloadPage.downloadGruepr}
+                  {content.downloadPage.windowsDirectLabel}
                 </a>
               </button>
             </div>
+            <p className="body">{content.downloadPage.windowsRecommendation}</p>
             <p className="body">{content.downloadPage.windowsInstall}</p>
           </div>
 
