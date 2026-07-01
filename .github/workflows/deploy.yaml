@@ -82,6 +82,8 @@ jobs:
           fi
 
       - name: Build and deploy to gh-pages
+        env:
+          CI: "false"   # CRA treats warnings as errors when CI=true; match the local `npm run deploy`
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

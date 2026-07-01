@@ -14,7 +14,11 @@ const CHANGELOG_URL =
 // heading is hidden because the page already has its own "Change Log" title.
 const mdComponents = {
   h1: () => null,
-  h2: ({ node, ...props }) => <h3 className="heading3 pt-[24px]" {...props} />,
+  h2: ({ node, children, ...props }) => (
+    <h3 className="heading3 pt-[24px]" {...props}>
+      {children}
+    </h3>
+  ),
   p: ({ node, ...props }) => <p className="body" {...props} />,
   ul: ({ node, ...props }) => (
     <ul className="body list-disc pl-[24px]" {...props} />
@@ -65,7 +69,7 @@ const ChangeLog = () => {
           )}
         </div>
       </div>
-      <img src={Image} alt="decorative image" />
+      <img src={Image} alt="" />
       <Footer />
     </div>
   );
