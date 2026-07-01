@@ -31,7 +31,7 @@ const Download = () => {
                 <ms-store-badge
                       productid="xpdc98f0ts7gcs"
                       productname="gruepr"
-                      window-mode="direct"
+                      window-mode="popup"
                       theme="dark"
                       size="medium"
                       language="en-us"
