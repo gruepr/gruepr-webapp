@@ -84,8 +84,12 @@ jobs:
       - name: Build and deploy to gh-pages
         env:
           CI: "false"   # CRA treats warnings as errors when CI=true; match the local `npm run deploy`
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name  "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # gh-pages pushes from its own cache clone, which doesn't inherit the checkout's
+          # credentials — embed the token so its push to the gh-pages branch authenticates.
+          git config --global url."https://x-access-token:${GH_TOKEN}@github.com/".insteadOf "https://github.com/"
           npm ci
           npm run deploy
