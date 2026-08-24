@@ -119,7 +119,7 @@ const content = {
     header: "Download and Installation",
 
     // Beginning section
-    version: "The most recent version is 13.0.2, dated 30 June 2026. ",
+    version: "The most recent version is 13.1, dated 24 August 2026. ",
     changelog: "Changelog.",
 
     downloadGruepr: "Download gruepr",
