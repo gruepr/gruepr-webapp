@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.44140587.css",
-    "main.js": "/static/js/main.4b146ab1.js",
+    "main.js": "/static/js/main.5a347ffe.js",
     "static/js/787.249e068f.chunk.js": "/static/js/787.249e068f.chunk.js",
     "static/media/Logos.svg": "/static/media/Logos.013bbef8d03a25ff1bc11b5422f33dae.svg",
     "static/media/team-compatibility.svg": "/static/media/team-compatibility.9c48523ee105fd967009546c91e1b1cd.svg",
     "static/media/create-survey.svg": "/static/media/create-survey.583afc1ddc395b9172a506543b7503a7.svg",
     "static/media/josh.jpg": "/static/media/josh.a573c0db5ed11f30d9e1.jpg",
     "static/media/free-open-source.svg": "/static/media/free-open-source.f7621d9afe26af137fb47840daab8e10.svg",
+    "static/media/mac-app-store-badge.svg": "/static/media/mac-app-store-badge.8c4986ee4828b47d16f5cd694ef065f2.svg",
     "static/media/hero-bg.svg": "/static/media/hero-bg.f809c7c14a421261bb7f.svg",
     "static/media/faq-bg.svg": "/static/media/faq-bg.fcd3182017541ba2224c71bb3d8f43a7.svg",
     "index.html": "/index.html",
@@ -21,11 +22,11 @@
     "static/media/clipboard.svg": "/static/media/clipboard.f46a213ebc3474d8af343c5d03649192.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.fde432db46d96494655598eb6c718965.svg",
     "main.44140587.css.map": "/static/css/main.44140587.css.map",
-    "main.4b146ab1.js.map": "/static/js/main.4b146ab1.js.map",
+    "main.5a347ffe.js.map": "/static/js/main.5a347ffe.js.map",
     "787.249e068f.chunk.js.map": "/static/js/787.249e068f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44140587.css",
-    "static/js/main.4b146ab1.js"
+    "static/js/main.5a347ffe.js"
   ]
 }
