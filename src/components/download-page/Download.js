@@ -59,7 +59,7 @@ const Download = () => {
             <div className="pl-[24px] space-y-[16px]">
               <div className="flex flex-row items-center space-x-[12px]">
                 <a href="https://apps.apple.com/us/app/gruepr/id1628354482">
-                  <img src={MacAppStoreBadge} alt="Download on the Mac App Store" style={{ height: '104px' }} />
+                  <img src={MacAppStoreBadge} alt="Download on the Mac App Store" style={{ height: '85px' }} />
                 </a>
               </div>
               <p className="body">{content.downloadPage.macStoreRecommendation}</p>
