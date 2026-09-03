@@ -133,9 +133,12 @@ const content = {
     run. You may need Administrator privileges.`,
 
     mac: "macOS:",
-    macInstall: `To install, download the dmg file, open the downloaded file, then drag the program to the Applications 
-    folder to complete installation. You may need to temporarily override your Mac security settings during the first time 
-    you run the program. To do this, Control-click the app, choose Open from the menu, and in the dialog that appears, 
+    macStoreRecommendation: `We recommend installing via the Mac App Store, which provides automatic updates and
+    simplified installation.`,
+    macDirectHeader: "Or, install manually:",
+    macInstall: `To install, download the dmg file, open the downloaded file, then drag the program to the Applications
+    folder to complete installation. You may need to temporarily override your Mac security settings during the first time
+    you run the program. To do this, Control-click the app, choose Open from the menu, and in the dialog that appears,
     click Open.`,
 
     linux: "Linux:",

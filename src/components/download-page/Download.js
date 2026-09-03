@@ -3,6 +3,7 @@ import Header from "../header/Header";
 import Footer from "../footer/Footer.js";
 import ChangeLog from "../change-log-page/ChangeLog";
 import DownloadPageImage from "../../img/download-bg.svg";
+import MacAppStoreBadge from "../../img/mac-app-store-badge.svg";
 import {NavLink, Route} from "react-router-dom";
 
 const Download = () => {
@@ -56,6 +57,14 @@ const Download = () => {
           <div className="space-y-[24px]">
             <h3 className="heading3">{content.downloadPage.mac}</h3>
             <div className="pl-[24px] space-y-[16px]">
+              <div className="flex flex-row items-center space-x-[12px]">
+                <a href="https://apps.apple.com/us/app/gruepr/id1628354482">
+                  <img src={MacAppStoreBadge} alt="Download on the Mac App Store" style={{ height: '40px' }} />
+                </a>
+              </div>
+              <p className="body">{content.downloadPage.macStoreRecommendation}</p>
+
+              <p className="body font-semibold pt-[16px]">{content.downloadPage.macDirectHeader}</p>
               <div className="flex flex-row items-center space-x-[12px]">
                 <button className="primary-button">
                   <a href="https://github.com/gruepr/gruepr/releases/latest/download/gruepr.dmg">
